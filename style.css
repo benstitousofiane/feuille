@@ -1,0 +1,78 @@
+/* Font: Open Sans bold 700 : font-family: 'Open Sans', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+html,body{
+    height: 100%;
+}
+
+body{
+    background-color: #28ff68;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header{
+    text-align: center;
+    background-color: #171716;
+    margin-bottom: 20px;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+main{
+    text-align: center;
+    background-color: #171716;
+
+    margin-left: 75px;
+    margin-right: 75px;
+    margin-bottom: 20px;
+
+    border-radius: 20px;
+
+    flex-grow: 1;
+}
+
+main h2{
+    margin-top: 60px;
+    font-size: 50px;
+}
+
+main h3{
+    font-size: 40px;
+}
+
+main button{
+    justify-content: space-evenly;
+    font-size: 140px;
+    border: none;
+    background-color: #484d49;
+    border-radius: 30px;
+    
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    transition: 0.3s;
+}
+
+main button:hover{
+    transition: 1s;
+    background-color: #91d09e;
+}
+
+
+footer{
+    text-align: center;
+    background-color: #171716;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
